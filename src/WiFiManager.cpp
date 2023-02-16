@@ -170,11 +170,11 @@ bool WiFiManager::startConfigPortal(char const *apName)
 
 void handleRoot() //主页回调函数
 {
-  creat_text_tips("启凡科创QF-HP物联网配置服务<br><br>");
+  creat_text_tips("量產機01 QF-HP物联网配置服务<br><br>");
 
   creat_text_tips("请注意：不作出更改的选项请留空<br><br>");
 
-  creat_text_tips("请输入目标2.4G频段网络信息或Blinker12位设备注册密匙<br>");
+  creat_text_tips("请输入目标2.4G频段网络信息设备注册密匙<br>");
   creat_input_object("WiFi名称:", "请正确输入名称", "aa", "bssid");
   creat_input_object("WiFi密码:", "请正确输入密码", "bb", "bpass");
   creat_input_object("<br>密匙:", "请正确输入密匙", "cc", "bkey");
